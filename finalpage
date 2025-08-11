@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Note on Your Continued Journey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="final-page">
+    <h1>A Note on Your Continued Journey</h1>
+    
+    <h2>Our Mission: A Path to Peace</h2>
+    <p>Our mission is simple: to help you discover inward peace that does not depend on the approval or validation of others. It is a peace that comes from within you, for you.</p>
+
+    <h2>On Failing and Rising Again</h2>
+    <p>The journey to inward peace is not a straight line. There will be days when the old chains feel heavy again. There will be moments when you feel you have failed.</p>
+    <p>This is not a sign of weakness. This is a sign of your strength. Every time you fall and choose to rise again, you are practicing radical self-compassion.</p>
+    <p>Extreme confidence in yourself does not mean you never fall. It means you know, with absolute certainty, that no matter how many times you fall, you will always be there to pick yourself up again. You have the tools, you have the awareness, and you have the strength to do it with kindness every single time.</p>
+    <p>The path is not a destination. The path is you. And you are enough.</p>
+  </div>
+</body>
+</html>
