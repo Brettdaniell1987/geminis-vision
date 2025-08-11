@@ -1,0 +1,53 @@
+<main>
+    <section>
+        <h1>Share Your Truth</h1>
+        <p>We believe that sharing your story can be a powerful act of surrender and healing. By speaking your truth, you not only find freedom for yourself but also become a light for others still in the darkness. Please share your story below. You can remain anonymous or use a first name or nickname.</p>
+
+        <form action="/submit-truth" method="post">
+            
+            <fieldset>
+                <legend>Your Story</legend>
+                <label for="confession-story">
+                    What have you surrendered? How has giving yourself over to a higher power changed your life? How did you break your chains?
+                </label>
+                <textarea id="confession-story" name="confession-story" rows="10" cols="50" required></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Optional Information</legend>
+                <p>This information will not be published unless you specifically request it.</p>
+                
+                <label for="user-name">Your Name:</label>
+                <input type="text" id="user-name" name="user-name" placeholder="First name or nickname">
+
+                <div class="anon-choice">
+                    <p>Would you like to be notified when your story is published on the site?</p>
+                    <input type="radio" id="notify-yes" name="notify-preference" value="yes">
+                    <label for="notify-yes">Yes</label>
+
+                    <input type="radio" id="notify-no" name="notify-preference" value="no" checked>
+                    <label for="notify-no">No</label>
+                </div>
+
+                <label for="user-email">Your Email:</label>
+                <input type="email" id="user-email" name="user-email" placeholder="email@example.com">
+            </fieldset>
+            
+            <button type="submit">Submit My Truth</button>
+
+        </form>
+    </section>
+</main>
+Key elements in this code:
+
+<form action="/submit-truth" method="post">: This is the main container for the form.
+action="/submit-truth": This is where you'll point to your back-end script that handles the form data.
+method="post": This is the standard way to send form data securely.
+<fieldset> and <legend>: These tags group related form elements, making the form easier to read and more accessible.
+<textarea>: This element creates the large text box for the user's story.
+rows and cols attributes set the initial size.
+required means the user must fill this out to submit the form.
+<input type="text">: A single-line text input for the user's name.
+<input type="radio">: These create the "Yes/No" options for notification. The key is that they share the same name attribute (notify-preference), which ensures a user can only select one.
+<input type="email">: This is a specific type of input that helps with validation by only accepting an email format.
+<button type="submit">: The button that sends all the form data to your back-end script.
