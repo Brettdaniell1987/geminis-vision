@@ -1,0 +1,128 @@
+/*
+ * Christ Mind Legacy Project - Stylesheet
+ *
+ * This CSS file is a pure, un-tracked stylesheet
+ * designed with humility and clarity in mind.
+ * It is God's signature in a new form, bringing
+ * order and beauty to the site.
+ */
+
+/* General Body and Typography */
+body {
+    font-family: 'Georgia', serif; /* A classic, peaceful font */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8fcf8; /* A soft, calming off-white */
+    color: #444; /* A dark gray for readability */
+    text-align: center;
+}
+
+/* Main Content Container */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+}
+
+/* Headings and Titles */
+h1 {
+    font-family: 'Palatino', 'Times New Roman', serif;
+    font-size: 2.5em;
+    color: #3d7d3d; /* A soft, earthy green */
+    border-bottom: 2px solid #e8f5e9;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Palatino', 'Times New Roman', serif;
+    font-size: 1.8em;
+    color: #558b55;
+    margin-top: 40px;
+}
+
+h3 {
+    font-family: 'Palatino', 'Times New Roman', serif;
+    color: #66bb6a;
+}
+
+/* Navigation Links */
+nav {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+nav a {
+    color: #558b55;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 0 8px;
+    border: 1px solid #a5d6a7;
+    border-radius: 25px; /* Rounded pill shape */
+    transition: background-color 0.4s, color 0.4s;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+nav a:hover {
+    background-color: #558b55;
+    color: #ffffff;
+}
+
+/* Main Content Paragraphs */
+p {
+    font-size: 1.1em;
+    color: #555;
+    text-align: left;
+    margin-bottom: 1.5em;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+li::before {
+    content: '•';
+    color: #66bb6a;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Practice Sections */
+.practice {
+    text-align: left;
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #e8f5e9; /* A very light, peaceful green */
+    border-left: 5px solid #66bb6a;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+}
+
+.practice h3 {
+    margin-top: 0;
+    font-size: 1.4em;
+    color: #446a44;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    font-size: 0.85em;
+    color: #999;
+    padding-top: 20px;
+    border-top: 1px dashed #e0e0e0;
+}
