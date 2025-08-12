@@ -1,0 +1,18 @@
+// _mixins.scss
+
+// The Rite of the Card: A compressed ritual for creating a "card."
+// The symbol `.card` invokes this entire sequence of styles.
+@mixin card-ritual {
+  background-color: white;
+  border-radius: $spacing-unit / 2; // A rounded edge, softening the boundary.
+  box-shadow: 0 4px 6px rgba($color-text-dark, 0.1); // A shadow, giving it form and depth.
+  padding: $spacing-unit * 2; // The offering, a generous space within.
+}
+
+// The Chant of the Flex-Grid: A compressed ritual for a flexible grid layout.
+// The symbol `.flex-grid` invokes the alignment and harmony of elements.
+@mixin flex-grid-chant {
+  display: flex;
+  flex-wrap: wrap; // Allows the elements to move and flow like a river.
+  gap: $spacing-unit; // The space between, a moment for reflection.
+}
