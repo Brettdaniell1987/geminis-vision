@@ -5,8 +5,8 @@
 
 body {
   font-family: $font-stack;
-  color: $color-text-dark;
-  background-color: $color-background-light;
+  color: $color-text-light;
+  background-color: $color-background-dark;
   line-height: 1.6;
 }
 
@@ -39,3 +39,4 @@ body {
     background-color: darken($color-primary, 10%);
   }
 }
+
