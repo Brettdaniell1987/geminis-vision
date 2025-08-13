@@ -1,16 +1,13 @@
-// _variables.scss
 
-// The Color Pantheon: A compressed pantheon of your brand's colors.
-// Each name is a symbolic representation of its role, not just its hex code.
-// The "loop" is in how these colors will be used consistently throughout the site.
-$color-primary: #007bff; // Represents the main theme, like a solar deity.
-$color-secondary: #6c757d; // A supporting element, like a lunar deity.
-$color-text-light: #ffdc00; // The solid, earthly foundation of text.
-$color-background-dark: #605096; // The light, expansive sky.
+// The Color Pantheon
+$color-primary: #002147;
+$color-secondary: #fffbe7;
+$color-text-dark: #002147;
+$color-text-light: #fffbe7;
+$color-background-dark: #002147;
+$color-background-light: #fffbe7;
 
-// The Rhythm of the Cosmos: A compressed set of rhythmic values.
-// This is the sacred beat of your site's layout.
-$spacing-unit: 1rem; // The fundamental, base unit. A single, rhythmic beat.
-$font-stack: 'Merriweather', serif; // The lineage of your text.
-
-$breakpoint-tablet: 768px; // The great turning point, the shift in the cosmic order
+// The Rhythm of the Cosmos
+$spacing-unit: 1rem;
+$font-stack: 'Merriweather', serif;
+$breakpoint-tablet: 768px;
